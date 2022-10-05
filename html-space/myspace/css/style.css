@@ -1,0 +1,212 @@
+body {
+  background-color: lightblue;
+  height: 100vh;
+  width: 100%;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+
+}
+nav {
+position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top:50px;
+  padding-left:8%;
+  padding-right:0;
+
+}
+
+ li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+float: left;
+
+
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+ li.dropdown {
+  display: inline-block;
+}
+
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+ul{
+  padding-left: 450px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+li {
+
+  padding: 10px 10px 10px 10px;
+
+}
+
+ .dropbtn {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+
+  display: inline-block;
+  padding: 5px 5px;
+  position: relative;
+
+}
+
+.dropbtn:hover {
+  color: red;
+  transition: 0.4s;
+}
+
+ .dropbtn::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  left: 50%;
+
+ background-color: white;
+transition-property: none;
+width: 0;
+}
+
+ .dropbtn:hover::after {
+   width: 100%;
+   left:0;
+   margin-top: 26px;
+ }
+.simpletext {
+  color: WHITE;
+  width: 25%;
+   padding-top: 10%;
+  padding-left: 5%;
+  float:left;
+}
+
+ H3 {
+  font-family: "TIMES NEW ROMAN", serif;
+  font-size: .9rem;
+  font-weight: normal;
+  word-spacing: 4px;
+  color: white;
+}
+
+h1 {
+  font-family: "TIMES NEW ROMAN", serif;
+  font-size: 5rem;
+  font-weight: normal;
+  word-spacing: 4px;
+  letter-spacing: 2PX;
+  color: white;
+}
+.navi{
+  font-weight: bold;
+}
+.europe {
+  width: 50%;
+}
+.back {
+background-color: #423F3E;
+padding: 10px 40px 10px 40px;
+}
+P {
+  font-family: "TIMES NEW ROMAN", serif;
+  font-weight: normal;
+  word-spacing: 4px;
+  letter-spacing: 2PX;
+  margin-bottom: 6%;
+  color: white;
+}
+
+ .EUROPA {
+  font-family: "TIMES NEW ROMAN", serif;
+  font-weight: normal;
+  word-spacing: 4px;
+  letter-spacing: 2PX;
+  margin-bottom: 6%;
+  color: white;
+  width: 50%;
+}
+
+.imagination {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.imagination {
+  transition: 0.4s;
+}
+
+
+ .imagemove {
+  display: block;
+  position: relative;
+  right: 40px;
+}
+.both{
+  padding-top: 10%;
+}
+.bottom{
+  height: 50px;
+width: 100%;
+display: flex;
+justify-content: center;
+
+  padding-top: 25px;
+
+background-color: #333;
+}
+#footer{
+  text-decoration: none;
+  font-weight: bolder;
+  color:white;
+  font-weight: bolder;
+  padding: 10px 10px;
+
+
+}
+#footer:hover{
+  background-color: red;
+  transition: 0.4s;
+  }
